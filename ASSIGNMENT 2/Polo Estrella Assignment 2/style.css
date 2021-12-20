@@ -1,0 +1,108 @@
+.p1{
+  align-items: center;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+
+  background-color: lightblue;
+  color: brown;
+
+  font-size: 15;
+  font-family: sans-serif;
+
+  box-shadow: 10px 5px 5px red;
+  filter: blur(3px);
+
+}
+h1 {
+    color: blue;
+}
+ul {
+  list-style-type: none;
+  padding: 8px;
+  text-align: center;
+  background-color: black;
+  margin: 0%;
+}
+li {
+  display: inline;
+  margin-right: 75px;
+  margin-left: 75px;
+  font-size: 40px;
+  color: white;
+}
+
+#maindiv{
+  background-color: rgb(207, 207, 207);
+  height: auto;
+  padding-top: 10px;
+}
+
+#div1{
+  border: hotpink;
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+  width: 500px;
+  overflow: scroll;
+  margin-top: 20px;
+  margin-left: 600px;
+  padding-left: 10px;
+}
+#image{
+  background-image: url("Empire_State_bldg.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 220px;
+}
+#div2{
+  background-image: url("Empire_State_bldg.jpg");
+  background-size: cover;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#div3{
+  margin-top: 50px;
+}
+#div4{
+  background-color: hotpink;
+  height: 100px;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  }
+#div5{
+  background-color: pink;
+  height: 100px;
+  width: 500px;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  font-size: 25px;
+  }
+#div6{
+  background-color: palevioletred;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  font-size: 25px;
+  font-family: cursive;
+  }
+
+  #div7{
+    background-color: black;
+    margin-top: 50px;  
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  #ftr_span{
+    color: white;
+    font-size: 50px;
+  }

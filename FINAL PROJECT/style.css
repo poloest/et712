@@ -1,0 +1,29 @@
+/* body{
+    background-color:thistle;
+    
+    font-family: "Lucida Sans";
+} */
+
+body { 
+    background: url(matrix.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Bakbak One';
+    font-size: larger;
+    margin: 0px 20%;
+    margin-top: 5%;
+  }
+
+div{
+    justify-content: center;
+}
+
+#gameName{
+    margin-top: 5%;
+}
+
+.row1{
+    margin-top: 15px;
+}

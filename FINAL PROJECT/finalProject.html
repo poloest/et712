@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final Project ET712 - Estrella</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <div class="alert alert-success alert-dismissable" style="display:none;" id = "winAlert">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      Congratulations! You won the game!
+    </div>
+
+    <div class="alert alert-danger alert-dismissable" style="display:none;" id = "loseAlert">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <div id = "loseMessage">
+        You lost the game!
+      </div>
+    </div>
+
+    
+
+    <div class = "container-fluid">
+
+      <div class="card" style = "color: white; margin:10px 15%; border-radius: 20px; background: url(titleBG.JPG) no-repeat center center fixed; background-size: cover;">
+        <div class="card-body">
+          <div class = "row row1">
+            <h1 class="display-4" >GUESS THE NUMBER</h1>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card" style = "margin:0px 15%; border-radius: 20px; background: url(card.gif) no-repeat center  fixed; background-size: cover;">
+        <div class="card-body">
+          <div class = "row row1">
+            <div id = "gameDescription">Guess the number between 1 and 100</div>
+          </div>
+
+          <div class = "row row1">
+            <div id = "currentScore">Score: 10</div>
+          </div>
+
+          <div class = "row row1">
+            <div id = "highScore">High Score: 0</div>
+          </div>
+
+          <div class = "row row1">
+            <button id = "startButton" style ="margin-right:5px">Start Game!</button>
+            <button id = "resetButton" style ="margin-left:5px">Reset Game</button>
+          </div>
+
+          <div class = "row row1">
+            <input  id = "userInput" type = "number" min = "1" max = "100" name = "guessBox" style ="margin-right:5px">
+            <button id = "submitButton" style ="margin-left:5px">Check</button>
+          </div>
+        
+          <div class = "row row1" style="color: white">
+            <div id = "hint">Test your luck!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style = "color: white; margin:10px 15%; border-radius: 20px; background: url(card.gif) no-repeat center center fixed; background-size: cover;">
+        <div class="card-body">
+          <div class = "row row1">
+            <div id = "guessList">Your guesses will appear here.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
